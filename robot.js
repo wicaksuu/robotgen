@@ -35,6 +35,46 @@ async function sendMultipleRequests() {
       id: "1307R0020523V005442",
       data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
     },
+    {
+      id: "1307R0020523V005442",
+      data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
+    },
+    {
+      id: "1307R0020523V005442",
+      data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
+    },
+    {
+      id: "1307R0020523V005442",
+      data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
+    },
+    {
+      id: "1307R0020523V005442",
+      data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
+    },
+    {
+      id: "1307R0020523V005442",
+      data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
+    },
+    {
+      id: "1307R0020523V005442",
+      data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
+    },
+    {
+      id: "1307R0020523V005442",
+      data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
+    },
+    {
+      id: "1307R0020523V005442",
+      data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
+    },
+    {
+      id: "1307R0020523V005442",
+      data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
+    },
+    {
+      id: "1307R0020523V005442",
+      data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
+    },
   ];
 
   for (const { id, data } of postData) {
