@@ -32,42 +32,6 @@ async function sendMultipleRequests() {
       id: "1307R0020523V005442",
       data: "px_lap=1307R0020523V005442-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
     },
-    {
-      id: "1307R0020523V005402",
-      data: "px_lap=1307R0020523V005402-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
-    },
-    {
-      id: "1307R0020523V005744",
-      data: "px_lap=1307R0020523V005744-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
-    },
-    {
-      id: "1307R0020523V005383",
-      data: "px_lap=1307R0020523V005383-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
-    },
-    {
-      id: "1307R0020523V005673",
-      data: "px_lap=1307R0020523V005673-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
-    },
-    {
-      id: "1307R0020523V005716",
-      data: "px_lap=1307R0020523V005716-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
-    },
-    {
-      id: "1307R0020523V005562",
-      data: "px_lap=1307R0020523V005562-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
-    },
-    {
-      id: "1307R0020523V005352",
-      data: "px_lap=1307R0020523V005352-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
-    },
-    {
-      id: "1307R0020523V005637",
-      data: "px_lap=1307R0020523V005637-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
-    },
-    {
-      id: "1307R0020523V005488",
-      data: "px_lap=1307R0020523V005488-1_2_3_4_5_6_7&pertamakali=$number&total_data=0&total_progres=0&jenis_layanan=rj&surety_id=2&dir=bpjs",
-    },
   ];
 
   for (const { id, data } of postData) {
