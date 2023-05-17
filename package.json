@@ -12,6 +12,7 @@
   "author": "wicaksu",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0"
+    "axios": "^1.4.0",
+    "tough-cookie": "^4.1.2"
   }
 }

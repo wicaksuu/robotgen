@@ -1,13 +1,16 @@
 const axios = require("axios").default;
 const https = require("https");
+const { CookieJar } = require("tough-cookie");
+const fs = require("fs");
 
 const agent = new https.Agent({
   rejectUnauthorized: false,
 });
+
 async function sendRequest(id, postData) {
   try {
     const url =
-      "https://rsud-caruban.madiunkab.go.id/pelayanan_medis/generate_report_penjamin/proses"; // Ganti dengan URL endpoint yang sesuai
+      "https://10.40.1.8/pelayanan_medis/generate_report_penjamin/proses"; // Ganti dengan URL endpoint yang sesuai
     const headers = {
       "Content-Type": "application/x-www-form-urlencoded",
       "User-Agent":
@@ -46,4 +49,44 @@ async function sendMultipleRequests() {
   }
 }
 
+async function login() {
+  try {
+    const url = "https://rsud-caruban.madiunkab.go.id/login/log_on"; // Ganti dengan URL endpoint yang sesuai
+    const headers = {
+      "Content-Type": "application/x-www-form-urlencoded",
+      "User-Agent":
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+    };
+    const postData = "username=admin&password=12caruban";
+
+    // Membuat CookieJar dan memuat cookie yang ada dari file jika ada
+    const cookieJar = new CookieJar();
+    const cookieFile = "./cookies.txt"; // Nama dan path file cookie
+    if (fs.existsSync(cookieFile)) {
+      const cookieData = fs.readFileSync(cookieFile, "utf8");
+      const parsedCookies = JSON.parse(cookieData); // Parsing cookie sebagai objek JSON
+      parsedCookies.forEach((cookie) => {
+        cookieJar.setCookieSync(cookie, url); // Menambahkan cookie ke dalam CookieJar
+      });
+    }
+
+    const response = await axios.post(url, postData, {
+      headers,
+      httpsAgent: agent,
+      maxRedirects: 5, // Mengizinkan pengalihan hingga 5 kali
+      withCredentials: true, // Menyimpan dan mengirim cookie
+      jar: cookieJar, // Menggunakan CookieJar yang telah dibuat
+    });
+
+    // Menyimpan cookie ke dalam file
+    const updatedCookieData = JSON.stringify(cookieJar.getCookiesSync(url)); // Mengkonversi cookie menjadi string JSON
+    fs.writeFileSync(cookieFile, updatedCookieData, "utf8");
+
+    console.log(`Response for ID login:`, response.data);
+  } catch (error) {
+    console.error(`Error for ID login:`, error.message);
+  }
+}
+
 sendMultipleRequests();
+// login();
