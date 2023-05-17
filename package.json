@@ -1,0 +1,17 @@
+{
+  "name": "robot",
+  "version": "1.0.0",
+  "description": "auto generate",
+  "main": "robot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wicaksu"
+  ],
+  "author": "wicaksu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
