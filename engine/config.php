@@ -3,7 +3,7 @@ $config['url']           = 'http://rsud-caruban.madiunkab.go.id';
 $config['username']      = 'admin';
 $config['password']      = '12caruban';
 $config['star_from']     = '2023-01-01';
-$config['dir_export']    = 'generate';
+$config['dir_export']    = '../generate';
 $config['subdir_export'] = 'bpjs';
 
 /**
