@@ -39,8 +39,8 @@ if ($config['save_configurate']) {
     foreach ($seps as $sep) {
         $retry = true;
         while ($retry) {
-            $status = generateProcess($num, $sep, $config['rj_ri'], $config['surety_id']);
-            if ($status) {
+            $str_stat = generateProcess($num, $sep, $config['rj_ri'], $config['surety_id']);
+            if ($str_stat) {
                 console_log("Data patient success saved $sep", 'success');
                 $retry = false;
             } else {
