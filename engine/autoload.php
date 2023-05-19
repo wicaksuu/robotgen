@@ -7,11 +7,7 @@ require "fuction/curl.php";
 require "fuction/login.php";
 require "fuction/get_data.php";
 
-if (isset($argv[1])) {
-    if ($config[1] == 'rj') {
-        $config['rj_ri']         = 'rj';
-    }
-}
+
 $start = microtime(true);
 
 $mpdf = new \Mpdf\Mpdf([
