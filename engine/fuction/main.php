@@ -89,6 +89,8 @@ function get_logaritma($rj_ri, $number, $set, $surety_id)
                 $data = "px_lap=$sep-7&pertamakali=$number&total_data=7&total_progres=6&jenis_layanan=$rj_ri&surety_id=$surety_id&dir=" . $config['subdir_export'];
                 break;
             case "save_configurate":
+                $file = "done $sep";
+                $paper = 'P';
                 $data = "px_lap=$sep-7&pertamakali=$number&total_data=7&total_progres=6&jenis_layanan=$rj_ri&surety_id=$surety_id&dir=" . $config['subdir_export'] . "&done=wicaksu";
                 break;
         }
@@ -140,6 +142,8 @@ function get_logaritma($rj_ri, $number, $set, $surety_id)
                 $data = "px_lap=$sep-8&pertamakali=$number&total_data=8&total_progres=7&jenis_layanan=$rj_ri&surety_id=$surety_id&dir=" . $config['subdir_export'];
                 break;
             case "save_configurate":
+                $file = "done $sep";
+                $paper = 'P';
                 $data = "px_lap=$sep-8&pertamakali=$number&total_data=8&total_progres=7&jenis_layanan=$rj_ri&surety_id=$surety_id&dir=" . $config['subdir_export'] . "&done=wicaksu";
                 break;
         }
