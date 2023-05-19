@@ -5,7 +5,7 @@
  * Ni main url nya bisa di rubah ke RS lain wkwokwokwo
  * 
  */
-$config['url']           = 'http://rsud-caruban.madiunkab.go.id';
+$config['url']           = 'http://10.40.1.8';
 
 
 
