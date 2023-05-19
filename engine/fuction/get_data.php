@@ -81,8 +81,10 @@ function generate($number, $sep, $rj_ri = 'rj', $surety_id = 2)
         console_log("Generating [" . $data['file_name'] . "]: " . $sep['sep'] . " successfully", "success");
         return true;
     } else {
+        if ($number == 2) {
         if (file_exists("engine/temp/error/" . str_replace(' ', '_', $data['file_name']) . ".json")) {
             unlink("engine/temp/error/" . str_replace(' ', '_', $data['file_name']) . ".json");
+            }
         }
         console_log("Generating [" . $data['file_name'] . "]: " . $sep['sep'] . " data not found", "warning");
         return false;
