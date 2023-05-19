@@ -8,6 +8,14 @@
 $config['url']           = 'http://10.40.1.8';
 
 
+/**
+ * 
+ * length of generate
+ * 
+ * 
+ */
+$config['length'] = 20;
+
 
 
 
