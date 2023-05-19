@@ -101,7 +101,7 @@ $config['surety_id']     = 2;
  * 
  * 
  */
-$config['rj_ri']         = 'ri';
+$config['rj_ri']         = 'rj';
 
 
 
