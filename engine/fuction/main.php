@@ -83,6 +83,9 @@ function get_logaritma($rj_ri, $number, $set, $surety_id)
                 $paper = 'P';
                 $data = "px_lap=$sep-7&pertamakali=$number&total_data=7&total_progres=6&jenis_layanan=$rj_ri&surety_id=$surety_id&dir=" . $config['subdir_export'];
                 break;
+            case "save_configurate":
+                $data = "px_lap=$sep-7&pertamakali=$number&total_data=7&total_progres=6&jenis_layanan=$rj_ri&surety_id=$surety_id&dir=" . $config['subdir_export'] . "&done=wicaksu";
+                break;
         }
     } else {
         switch ($number) {
@@ -131,6 +134,9 @@ function get_logaritma($rj_ri, $number, $set, $surety_id)
                 $paper = 'P';
                 $data = "px_lap=$sep-8&pertamakali=$number&total_data=8&total_progres=7&jenis_layanan=$rj_ri&surety_id=$surety_id&dir=" . $config['subdir_export'];
                 break;
+            case "save_configurate":
+                $data = "px_lap=$sep-8&pertamakali=$number&total_data=8&total_progres=7&jenis_layanan=$rj_ri&surety_id=$surety_id&dir=" . $config['subdir_export'] . "&done=wicaksu";
+                break;
         }
     }
     return ["data" => $data, "file_name" => $file, "paper" => $paper, 'sep' => $sep, 'dir' => $set['dir'], 'rj_ri' => $rj_ri, 'surety_id' => $surety_id, 'number' => $number];
@@ -144,7 +150,64 @@ function cek_error()
     $data = array();
     foreach ($jsonFiles as $file) {
         $jsonContent = file_get_contents($file);
-        $data[] = json_decode($jsonContent, true);
+        $data[$file] = json_decode($jsonContent, true);
+    }
+
+    foreach ($data as $key => $error) {
+        if (file_exists($error['data']['dir'] . "/" . $error['data']['file_name'] . ".pdf")) {
+            unlink($key);
+        }
+    }
+
+    $jsonFiles = glob($folderPath . '/*.json');
+    $data = array();
+    foreach ($jsonFiles as $file) {
+        $jsonContent = file_get_contents($file);
+        $data[$file] = json_decode($jsonContent, true);
     }
     return $data;
+}
+
+function errror_audit()
+{
+
+    $errors = cek_error();
+    $processes_erros = [];
+    foreach ($errors as $error) {
+        $pid_errors = pcntl_fork();
+        if ($pid_errors == -1) {
+            die("Could not fork");
+        } elseif ($pid_errors == 0) {
+            console_log('Regenerate Error Code ' . $error['data']['file_name']);
+            generate($error['data']['number'], $error['data'], $error['data']['rj_ri'], $error['data']['surety_id']);
+            exit();
+        } else {
+            $processes_erros[] = $pid_errors;
+        }
+    }
+
+    foreach ($processes_erros as $pid_errors) {
+        pcntl_waitpid($pid_errors, $status);
+    }
+    $errors = cek_error();
+    $total_error = 0;
+    foreach ($errors as $value) {
+        $total_error++;
+    }
+    console_log('Total data error generate ' . $total_error);
+    return $total_error;
+}
+
+function generateRandomCode($length = 8)
+{
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $code = '';
+    $charactersLength = strlen($characters);
+
+    for ($i = 0; $i < $length; $i++) {
+        $randomIndex = rand(0, $charactersLength - 1);
+        $code .= $characters[$randomIndex];
+    }
+
+    return $code;
 }

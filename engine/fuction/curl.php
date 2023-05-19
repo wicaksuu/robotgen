@@ -36,7 +36,7 @@ function curlRequest($url, $method = 'GET', $data = null, $cookies = null, $atte
     curl_close($curl);
 
     if ($httpCode !== 200 && $attempt < $config['max_error'] && $sep != null) {
-        $file = fopen("engine/temp/error/" . $sep['sep'] . ".json", "w");
+        $file = fopen("engine/temp/error/" . str_replace(' ', '_', $sep['file_name']) . ".json", "w");
         fwrite($file, json_encode([
             "url" => $url,
             "method" => $method,

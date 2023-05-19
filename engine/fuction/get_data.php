@@ -50,13 +50,28 @@ function generate($number, $sep, $rj_ri = 'rj', $surety_id = 2)
     $url   = $config['url'] . "/pelayanan_medis/generate_report_penjamin/proses";
     $resp  = curlRequest($url, 'POST', $data['data'], null, 1, $data);
 
-    if ($resp != '') {
+    if ($number == 'save_configurate') {
+        if ($res = json_decode($resp, true)) {
+            if ($res['status'] == true) {
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return false;
+        }
+    }
+
+    if ($resp != '' && strpos($resp, 'caruban')) {
         $mpdf->AddPage($data['paper']);
         $mpdf->WriteHTML($resp);
         $mpdf->Output($sep['dir'] . "/" . $data['file_name'] . '.pdf', 'f');
         console_log("Generating [" . $data['file_name'] . "]: " . $sep['sep'] . " successfully", "success");
         return true;
     } else {
+        if (file_exists("engine/temp/error/" . str_replace(' ', '_', $data['file_name']) . ".json")) {
+            unlink("engine/temp/error/" . str_replace(' ', '_', $data['file_name']) . ".json");
+        }
         console_log("Generating [" . $data['file_name'] . "]: " . $sep['sep'] . " data not found", "warning");
         return false;
     }
