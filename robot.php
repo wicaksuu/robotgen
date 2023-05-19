@@ -36,6 +36,8 @@ do {
 
 if ($config['save_configurate']) {
     $num = 'save_configurate';
+    $count = 0; // variabel hitung
+
     foreach ($seps as $sep) {
         $retry = true;
         while ($retry) {
@@ -46,9 +48,20 @@ if ($config['save_configurate']) {
             } else {
                 console_log("Data patient can't be saved " . $sep['sep'], 'warning');
             }
+
+            $count++; // tambahkan hitung setiap kali looping
+
+            if ($count >= $config['max_error']) {
+                $retry = false; // keluar dari loop jika hitung mencapai $config['max_error']
+            }
+        }
+
+        if ($count >= $config['max_error']) {
+            break; // keluar dari loop foreach jika hitung mencapai 2
         }
     }
 }
+
 
 
 $executionTime = microtime(true) - $start;
