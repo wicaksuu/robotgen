@@ -16,18 +16,23 @@ function console_log($message, $level = null)
     switch ($level) {
         case 'danger':
             echo "\033[0;31m [ $time ] $message\033[0m\n";
+            file_put_contents("engine/temp/log/error.log", "[ $time ] $message\n", FILE_APPEND);
             die;
             break;
         case 'warning':
             echo "\033[0;33m [ $time ] $message\033[0m\n";
+            file_put_contents("engine/temp/log/warning.log", "[ $time ] $message\n", FILE_APPEND);
             break;
         case 'success':
             echo "\033[0;32m [ $time ] $message\033[0m\n";
+            file_put_contents("engine/temp/log/success.log", "[ $time ] $message\n", FILE_APPEND);
             break;
 
         default:
             echo "\033[0;94m [ $time ] $message\033[0m\n";
+            file_put_contents("engine/temp/log/info.log", "[ $time ] $message\n", FILE_APPEND);
             break;
+
     }
     return;
 }

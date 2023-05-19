@@ -7,6 +7,8 @@ require "fuction/curl.php";
 require "fuction/login.php";
 require "fuction/get_data.php";
 
+$start = microtime(true);
+
 $mpdf = new \Mpdf\Mpdf([
     'margin_left' => 10,
     'margin_right' => 10,

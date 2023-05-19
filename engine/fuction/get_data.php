@@ -33,9 +33,21 @@ function get_data($start_from, $end_from = null, $rj_ri = 'rj', $surety_id = 2)
     if ($total_data == 0) {
         console_log('No data for generate', 'danger');
     }
-    $total_belum_gen = $get_data['iTotalRecords'];
-    $persen = $total_data / $total_belum_gen * 100;
+    if (file_exists("engine/temp/time.txt")) {
+        $file_last_exe    = file_get_contents("engine/temp/time.txt");
+    } else {
+        $file_last_exe = 10000;
+    }
+
+    $total_belum_gen  = $get_data['iTotalRecords'];
+    $estimasi_selesai = $total_belum_gen / 10 * $file_last_exe;
+    $formattedTime    = gmdate("H:i:s", $estimasi_selesai);
+
+    $persen           = $total_data / $total_belum_gen * 100;
     console_log("Get data successfully total: $total_data/$total_belum_gen [ $persen% ]", 'success');
+    console_log("=======================================================", 'success');
+    console_log("\t\tDONE ESTIMATE IN : $formattedTime", 'success');
+    console_log("=======================================================", 'success');
     return $seps;
 }
 

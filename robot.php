@@ -50,4 +50,16 @@ if ($config['save_configurate']) {
     }
 }
 
-console_log("\n\nALL DATA SUCCESSFULLY GENERATE", 'success');
+
+$executionTime = microtime(true) - $start;
+$formattedTime = gmdate("H:i:s", $executionTime);
+
+$file = fopen("engine/temp/time.txt", "w");
+fwrite($file, $executionTime);
+fclose($file);
+
+
+console_log("ALL DATA SUCCESSFULLY GENERATE", 'success');
+console_log("=======================================================", 'success');
+console_log("\t\tProcessing Done in: $formattedTime", 'success');
+console_log("=======================================================", 'success');
