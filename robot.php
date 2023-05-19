@@ -30,9 +30,22 @@ foreach ($processes as $pid) {
     pcntl_waitpid($pid, $status);
 }
 
+$count = 0;
 do {
     $total_error = errror_audit();
+    $count++;
+    if ($count >= $config['max_error']) {
+        $total_error = 0;
+    }
 } while ($total_error != 0);
+
+
+$errors = cek_error();
+$dump_error = [];
+foreach ($errors as $error) {
+    $dump_error[$error['data']['sep']] = $error;
+}
+
 
 if ($config['save_configurate']) {
     $num = 'save_configurate';
@@ -40,24 +53,25 @@ if ($config['save_configurate']) {
 
     foreach ($seps as $sep) {
         $retry = true;
-        while ($retry) {
-            $str_stat = generateProcess($num, $sep, $config['rj_ri'], $config['surety_id']);
-            if ($str_stat) {
-                console_log("Data patient success saved " . $sep['sep'], 'success');
-                $retry = false;
-            } else {
-                console_log("Data patient can't be saved " . $sep['sep'], 'warning');
-            }
+        if (!isset($dump_error[$sep['sep']])) {
+            while ($retry) {
+                $str_stat = generateProcess($num, $sep, $config['rj_ri'], $config['surety_id']);
+                if ($str_stat) {
+                    console_log("Data patient success saved " . $sep['sep'], 'success');
+                    $retry = false;
+                } else {
+                    console_log("Data patient can't be saved " . $sep['sep'], 'warning');
+                }
 
-            $count++; // tambahkan hitung setiap kali looping
+                $count++;
 
-            if ($count >= $config['max_error']) {
-                $retry = false; // keluar dari loop jika hitung mencapai $config['max_error']
+                if ($count >= $config['max_error']) {
+                    $retry = false;
+                }
             }
         }
-
         if ($count >= $config['max_error']) {
-            break; // keluar dari loop foreach jika hitung mencapai 2
+            break; 
         }
     }
 }
