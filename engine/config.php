@@ -14,7 +14,7 @@ $config['url']           = 'http://10.40.1.8';
  * 
  * 
  */
-$config['length'] = 20;
+$config['length'] = 1;
 
 
 
@@ -134,4 +134,4 @@ $config['max_error'] = 2;
  * Jangan sembarangan merubah ini ya !!!
  * 
  */
-$config['save_configurate'] = false;
+$config['save_configurate'] = true;

@@ -40,7 +40,7 @@ function get_data($start_from, $end_from = null, $rj_ri = 'rj', $surety_id = 2)
     }
 
     $total_belum_gen  = $get_data['iTotalRecords'];
-    $estimasi_selesai = $total_belum_gen / 10 * $file_last_exe;
+    $estimasi_selesai = $total_belum_gen / $config['length'] * $file_last_exe;
     $formattedTime    = gmdate("H:i:s", $estimasi_selesai);
 
     $persen           = $total_data / $total_belum_gen * 100;
@@ -64,6 +64,8 @@ function generate($number, $sep, $rj_ri = 'rj', $surety_id = 2)
 
     if ($number == 'save_configurate') {
         if ($res = json_decode($resp, true)) {
+            print_r($res);
+            die;
             if ($res['status'] == true) {
                 return true;
             } else {
