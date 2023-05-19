@@ -37,13 +37,15 @@ do {
 if ($config['save_configurate']) {
     $num = 'save_configurate';
     foreach ($seps as $sep) {
-        ulang:
-        $str_stat = generateProcess($num, $sep, $config['rj_ri'], $config['surety_id']);
-        if ($str_stat == true) {
-            console_log("Data patient success saved $sep", 'success');
-        } else {
-            console_log("Data patient cant be saved $sep", 'danger');
-            goto ulang;
+        $retry = true;
+        while ($retry) {
+            $str_stat = generateProcess($num, $sep, $config['rj_ri'], $config['surety_id']);
+            if ($str_stat) {
+                console_log("Data patient success saved " . $sep['sep'], 'success');
+                $retry = false;
+            } else {
+                console_log("Data patient can't be saved " . $sep['sep'], 'danger');
+            }
         }
     }
 }
