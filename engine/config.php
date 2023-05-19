@@ -109,7 +109,6 @@ $config['rj_ri']         = 'ri';
 
 
 
-
 /**
  * 
  * Max Error will be returned
