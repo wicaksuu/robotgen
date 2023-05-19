@@ -34,7 +34,7 @@ $count = 0;
 do {
     $total_error = errror_audit();
     $count++;
-    if ($count >= $config['max_error']) {
+    if ($count > $config['max_error']) {
         $total_error = 0;
     }
 } while ($total_error != 0);
@@ -65,7 +65,7 @@ if ($config['save_configurate']) {
 
                 $count++;
 
-                if ($count >= $config['max_error']) {
+                if ($count > $config['max_error']) {
                     $retry = false;
                 }
             }
