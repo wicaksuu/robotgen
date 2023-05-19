@@ -44,7 +44,7 @@ if ($config['save_configurate']) {
                 console_log("Data patient success saved " . $sep['sep'], 'success');
                 $retry = false;
             } else {
-                console_log("Data patient can't be saved " . $sep['sep'], 'danger');
+                console_log("Data patient can't be saved " . $sep['sep'], 'warning');
             }
         }
     }

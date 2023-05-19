@@ -39,7 +39,7 @@ function console_log($message, $level = null)
 
 function generateProcess($num, $sep, $rj_ri, $surety_id)
 {
-    generate($num, $sep, $rj_ri, $surety_id);
+    return generate($num, $sep, $rj_ri, $surety_id);
 }
 
 function get_logaritma($rj_ri, $number, $set, $surety_id)
