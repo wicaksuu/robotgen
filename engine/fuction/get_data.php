@@ -64,10 +64,12 @@ function generate($number, $sep, $rj_ri = 'rj', $surety_id = 2)
 
     if ($number == 'save_configurate') {
         if ($res = json_decode($resp, true)) {
-            print_r($res);
-            die;
-            if ($res['status'] == true) {
-                return true;
+            if (isset($res['status'])) {
+                if ($res['status'] == true) {
+                    return true;
+                } else {
+                    return false;
+                }
             } else {
                 return false;
             }
