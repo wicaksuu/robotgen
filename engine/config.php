@@ -14,7 +14,7 @@ $config['url']           = 'http://10.40.1.8';
  * 
  * 
  */
-$config['length'] = 5;
+$config['length'] = 1;
 
 
 
