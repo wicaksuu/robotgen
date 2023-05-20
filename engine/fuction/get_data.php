@@ -18,7 +18,7 @@ function get_data($start_from, $end_from = null, $rj_ri = 'rj', $surety_id = 2)
             $sep = get_string_between($dumps[0], 'value="', '"></center>');
             $tgl = preg_replace('/\//', "/{$rj_ri}/", str_replace('-', '/', get_string_between($dumps[4], "class='label_sep_tgl'>", '</label>')), 1);
             if (strpos($dumps[1], 'label_sudah_keluar') !== false) {
-                if ($sep != '') {
+                if ($sep != '' && strlen($sep) > 5) {
                     $patch = $config['dir_export'] . "/" . $config['subdir_export'] . "/" . $tgl . "/" . $sep;
                     $patch = str_replace("/\/", '', $patch);
                     if (!file_exists($patch)) {
