@@ -7,18 +7,6 @@ if ($login_status == false) {
     die;
 }
 
-if (file_exists("engine/temp/last.txt")) {
-    $targetDate = fopen("myfile.txt", "r");
-    $today      = date('Y-m-d');
-    if ($targetDate == $today) {
-        $runner = $targetDate;
-    } else {
-        $runner = date('Y-m-d', strtotime($targetDate . ' + 1 day'));
-    }
-} else {
-    $runner = $config['star_from'];
-}
-
 $seps = get_data_per_hari($runner, $runner, $config['rj_ri'], $config['surety_id']);
 $chunks = array_chunk($seps, 3);
 foreach ($chunks as $value) {
@@ -46,7 +34,7 @@ foreach ($chunks as $value) {
 
 if ($config['save_configurate']) {
     $num = 'save_configurate';
-    $count = 0; // variabel hitung
+    $count = 0;
 
     foreach ($seps as $sep) {
         $retry = true;

@@ -2,40 +2,13 @@
 
 /**
  * 
- * Ni main url nya bisa di rubah ke RS lain wkwokwokwo
- * 
- */
-
-// rawat jalan 
-// $config['url']           = 'http://10.40.1.8'; 
-
-// rawat jalan 
-$config['url']           = 'http://10.40.1.13'; 
-
-// rawat inap
-// $config['url']           = 'http://10.40.1.14';
-
-
-/**
- * 
- * length of generate
+ * ri untuk rawat jalan
+ * rj untuk rawat inap 
+ * yang bagian ini bebas mau di edit, tapi option value nya cuman ada 2
  * 
  * 
  */
-$config['length'] = 500;
-
-
-
-
-
-/**
- * 
- * ini username dan password API ehos nya kalo password admin dan username admin diganin
- * ini juga kudu di ganti ya
- * 
- */
-$config['username']      = 'admin';
-$config['password']      = '12caruban';
+$config['rj_ri']         = 'rj';
 
 
 
@@ -51,6 +24,54 @@ $config['password']      = '12caruban';
  *  
  */
 $config['star_from']     = '2023-05-07';
+
+
+
+
+
+
+
+/**
+ * 
+ * Ni main url nya bisa di rubah ke RS lain wkwokwokwo
+ * Ni ga perlu di rubah udah auto
+ * 
+ */
+
+// rawat jalan 
+// $config['url']           = 'http://10.40.1.8'; 
+
+if ($config['rj_ri'] == 'rj') {
+    // rawat jalan 
+    $config['url']           = 'http://10.40.1.13';
+} else {
+    // rawat inap
+    $config['url']           = 'http://10.40.1.14';
+}
+
+
+
+/**
+ * 
+ * length of generate
+ * 
+ * 
+ */
+$config['length'] = 1000;
+
+
+
+
+
+/**
+ * 
+ * ini username dan password API ehos nya kalo password admin dan username admin diganin
+ * ini juga kudu di ganti ya
+ * 
+ */
+$config['username']      = 'admin';
+$config['password']      = '12caruban';
+
 
 
 
@@ -92,24 +113,6 @@ $config['subdir_export'] = 'bpjs';
  * 
  */
 $config['surety_id']     = 2;
-
-
-
-
-
-
-
-
-
-/**
- * 
- * ri untuk rawat jalan
- * rj untuk rawat inap 
- * yang bagian ini bebas mau di edit, tapi option value nya cuman ada 2
- * 
- * 
- */
-$config['rj_ri']         = 'rj';
 
 
 

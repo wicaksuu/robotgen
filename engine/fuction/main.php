@@ -12,24 +12,32 @@ function get_string_between($string, $start, $end)
 
 function console_log($message, $level = null)
 {
+    global $config;
+    global $runner;
+
+    if ($config['rj_ri'] == "rj") {
+        $name = "Rawat Jalan";
+    } else {
+        $name = "Rawat Inap ";
+    }
     $time = date("H:i:s", time());
     switch ($level) {
         case 'danger':
-            echo "\033[0;31m [ $time ] $message\033[0m\n";
+            echo "\033[0;31m [ $time ] [$name -> $runner] $message\033[0m\n";
             file_put_contents("engine/temp/log/error.log", "[ $time ] $message\n", FILE_APPEND);
             die;
             break;
         case 'warning':
-            echo "\033[0;33m [ $time ] $message\033[0m\n";
+            echo "\033[0;33m [ $time ] [$name -> $runner] $message\033[0m\n";
             file_put_contents("engine/temp/log/warning.log", "[ $time ] $message\n", FILE_APPEND);
             break;
         case 'success':
-            echo "\033[0;32m [ $time ] $message\033[0m\n";
+            echo "\033[0;32m [ $time ] [$name -> $runner] $message\033[0m\n";
             file_put_contents("engine/temp/log/success.log", "[ $time ] $message\n", FILE_APPEND);
             break;
 
         default:
-            echo "\033[0;94m [ $time ] $message\033[0m\n";
+            echo "\033[0;94m [ $time ] [$name -> $runner] $message\033[0m\n";
             file_put_contents("engine/temp/log/info.log", "[ $time ] $message\n", FILE_APPEND);
             break;
 
