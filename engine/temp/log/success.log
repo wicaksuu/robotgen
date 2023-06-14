@@ -1,0 +1,321 @@
+[ 10:39:55 ] System ok
+[ 10:40:46 ] System ok
+[ 10:41:41 ] System ok
+[ 10:42:33 ] System ok
+[ 10:46:01 ] System ok
+[ 10:46:22 ] System ok
+[ 10:46:23 ] Get data successfully total: 9/5570 [ 0.16157989228007% ]
+[ 10:46:23 ] =======================================================
+[ 10:46:23 ] 		DONE ESTIMATE IN : 09:07:48
+[ 10:46:23 ] =======================================================
+[ 11:10:58 ] System ok
+[ 11:10:58 ] Get data successfully total: 11/31 [ 35.483870967742% ]
+[ 11:10:58 ] =======================================================
+[ 11:10:58 ] 		DONE ESTIMATE IN : 00:03:02
+[ 11:10:58 ] =======================================================
+[ 11:11:10 ] System ok
+[ 11:11:11 ] Get data successfully total: 11/31 [ 35.483870967742% ]
+[ 11:11:11 ] =======================================================
+[ 11:11:11 ] 		DONE ESTIMATE IN : 00:03:02
+[ 11:11:11 ] =======================================================
+[ 11:12:00 ] System ok
+[ 11:12:00 ] Get data successfully total: 11/31 [ 35.483870967742% ]
+[ 11:12:00 ] =======================================================
+[ 11:12:00 ] 		DONE ESTIMATE IN : 00:03:02
+[ 11:12:00 ] =======================================================
+[ 11:12:16 ] System ok
+[ 11:12:17 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 11:12:17 ] =======================================================
+[ 11:12:17 ] 		DONE ESTIMATE IN : 00:00:01
+[ 11:12:17 ] =======================================================
+[ 11:14:44 ] System ok
+[ 11:14:44 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 11:14:44 ] =======================================================
+[ 11:14:44 ] 		DONE ESTIMATE IN : 00:00:03
+[ 11:14:44 ] =======================================================
+[ 11:17:38 ] System ok
+[ 11:17:38 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 11:17:38 ] =======================================================
+[ 11:17:38 ] 		DONE ESTIMATE IN : 00:00:03
+[ 11:17:38 ] =======================================================
+[ 11:18:13 ] Generating [File Resep 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:18:13 ] Generating [File Resum Medis 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:18:13 ] Generating [File Resum Medis 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 11:18:14 ] Generating [File Resep 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 11:18:28 ] Generating [File Kombinasi 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 11:18:28 ] Generating [File Kombinasi 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:18:28 ] Generating [File Resum Medis 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 11:18:28 ] Generating [File Resep 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 11:18:37 ] Generating [File Kombinasi 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 11:18:38 ] Generating [File Resum Medis 1307R0020523V002137]: 1307R0020523V002137 successfully
+[ 11:18:38 ] Generating [File Resep 1307R0020523V002137]: 1307R0020523V002137 successfully
+[ 11:23:08 ] System ok
+[ 11:23:08 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 11:23:08 ] =======================================================
+[ 11:23:08 ] 		DONE ESTIMATE IN : 00:00:03
+[ 11:23:08 ] =======================================================
+[ 11:24:00 ] System ok
+[ 11:24:00 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 11:24:00 ] =======================================================
+[ 11:24:00 ] 		DONE ESTIMATE IN : 00:00:03
+[ 11:24:00 ] =======================================================
+[ 11:24:54 ] System ok
+[ 11:24:54 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 11:24:54 ] =======================================================
+[ 11:24:54 ] 		DONE ESTIMATE IN : 00:00:03
+[ 11:24:54 ] =======================================================
+[ 11:25:40 ] Generating [File Tagihan 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:25:41 ] Generating [File Resum Medis 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:25:49 ] Generating [File Kombinasi 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:25:50 ] Generating [File Resep 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:26:35 ] Generating [File Tagihan 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 11:26:36 ] Generating [File Resum Medis 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 11:26:45 ] Generating [File Kombinasi 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 11:26:45 ] Generating [File Resep 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 11:27:30 ] Generating [File Tagihan 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 11:27:31 ] Generating [File Resum Medis 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 11:27:40 ] Generating [File Kombinasi 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 11:27:40 ] Generating [File Resep 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 11:28:26 ] Generating [File Tagihan 1307R0020523V002137]: 1307R0020523V002137 successfully
+[ 11:28:27 ] Generating [File Resum Medis 1307R0020523V002137]: 1307R0020523V002137 successfully
+[ 11:28:36 ] Generating [File Kombinasi 1307R0020523V002137]: 1307R0020523V002137 successfully
+[ 11:28:37 ] Generating [File Resep 1307R0020523V002137]: 1307R0020523V002137 successfully
+[ 11:28:55 ] Generating [File Tagihan 1307R0020523V002117]: 1307R0020523V002117 successfully
+[ 11:28:56 ] Generating [File Resum Medis 1307R0020523V002117]: 1307R0020523V002117 successfully
+[ 11:28:58 ] Generating [File Kombinasi 1307R0020523V002117]: 1307R0020523V002117 successfully
+[ 11:29:45 ] Generating [File Tagihan 1307R0020523V002161]: 1307R0020523V002161 successfully
+[ 11:29:47 ] Generating [File Resum Medis 1307R0020523V002161]: 1307R0020523V002161 successfully
+[ 11:29:56 ] Generating [File Kombinasi 1307R0020523V002161]: 1307R0020523V002161 successfully
+[ 11:29:56 ] Generating [File Resep 1307R0020523V002161]: 1307R0020523V002161 successfully
+[ 11:30:42 ] Generating [File Tagihan 1307R0020523V002148]: 1307R0020523V002148 successfully
+[ 11:30:43 ] Generating [File Resum Medis 1307R0020523V002148]: 1307R0020523V002148 successfully
+[ 11:30:52 ] Generating [File Kombinasi 1307R0020523V002148]: 1307R0020523V002148 successfully
+[ 11:30:52 ] Generating [File Resep 1307R0020523V002148]: 1307R0020523V002148 successfully
+[ 11:31:38 ] Generating [File Tagihan 1307R0020523V002153]: 1307R0020523V002153 successfully
+[ 11:31:40 ] Generating [File Resum Medis 1307R0020523V002153]: 1307R0020523V002153 successfully
+[ 11:31:49 ] Generating [File Kombinasi 1307R0020523V002153]: 1307R0020523V002153 successfully
+[ 11:31:49 ] Generating [File Resep 1307R0020523V002153]: 1307R0020523V002153 successfully
+[ 11:32:36 ] Generating [File Tagihan 1307R0020523V002124]: 1307R0020523V002124 successfully
+[ 11:32:38 ] Generating [File Resum Medis 1307R0020523V002124]: 1307R0020523V002124 successfully
+[ 11:32:46 ] Generating [File Kombinasi 1307R0020523V002124]: 1307R0020523V002124 successfully
+[ 11:32:47 ] Generating [File Resep 1307R0020523V002124]: 1307R0020523V002124 successfully
+[ 11:33:32 ] Generating [File Tagihan 1307R0020523V002152]: 1307R0020523V002152 successfully
+[ 11:33:33 ] Generating [File Resum Medis 1307R0020523V002152]: 1307R0020523V002152 successfully
+[ 11:33:41 ] Generating [File Kombinasi 1307R0020523V002152]: 1307R0020523V002152 successfully
+[ 11:33:42 ] Generating [File Resep 1307R0020523V002152]: 1307R0020523V002152 successfully
+[ 11:34:27 ] Generating [File Tagihan 1307R0020523V002122]: 1307R0020523V002122 successfully
+[ 11:34:29 ] Generating [File Resum Medis 1307R0020523V002122]: 1307R0020523V002122 successfully
+[ 11:34:37 ] Generating [File Kombinasi 1307R0020523V002122]: 1307R0020523V002122 successfully
+[ 11:34:38 ] Generating [File Resep 1307R0020523V002122]: 1307R0020523V002122 successfully
+[ 11:35:24 ] Generating [File Tagihan 1307R0020523V002123]: 1307R0020523V002123 successfully
+[ 11:35:27 ] Generating [File Resum Medis 1307R0020523V002123]: 1307R0020523V002123 successfully
+[ 11:35:35 ] Generating [File Kombinasi 1307R0020523V002123]: 1307R0020523V002123 successfully
+[ 11:35:36 ] Generating [File Resep 1307R0020523V002123]: 1307R0020523V002123 successfully
+[ 11:36:22 ] Generating [File Tagihan 1307R0020523V002128]: 1307R0020523V002128 successfully
+[ 11:36:24 ] Generating [File Resum Medis 1307R0020523V002128]: 1307R0020523V002128 successfully
+[ 11:36:33 ] Generating [File Kombinasi 1307R0020523V002128]: 1307R0020523V002128 successfully
+[ 11:36:33 ] Generating [File Resep 1307R0020523V002128]: 1307R0020523V002128 successfully
+[ 11:37:19 ] Generating [File Tagihan 1307R0020523V002125]: 1307R0020523V002125 successfully
+[ 11:37:20 ] Generating [File Resum Medis 1307R0020523V002125]: 1307R0020523V002125 successfully
+[ 11:37:29 ] Generating [File Kombinasi 1307R0020523V002125]: 1307R0020523V002125 successfully
+[ 11:37:29 ] Generating [File Resep 1307R0020523V002125]: 1307R0020523V002125 successfully
+[ 11:38:14 ] Generating [File Tagihan 1307R0020523V002127]: 1307R0020523V002127 successfully
+[ 11:38:15 ] Generating [File Resum Medis 1307R0020523V002127]: 1307R0020523V002127 successfully
+[ 11:38:24 ] Generating [File Kombinasi 1307R0020523V002127]: 1307R0020523V002127 successfully
+[ 11:38:24 ] Generating [File Resep 1307R0020523V002127]: 1307R0020523V002127 successfully
+[ 11:39:10 ] Generating [File Tagihan 1307R0020523V002129]: 1307R0020523V002129 successfully
+[ 11:39:12 ] Generating [File Resum Medis 1307R0020523V002129]: 1307R0020523V002129 successfully
+[ 11:39:20 ] Generating [File Kombinasi 1307R0020523V002129]: 1307R0020523V002129 successfully
+[ 11:39:21 ] Generating [File Resep 1307R0020523V002129]: 1307R0020523V002129 successfully
+[ 11:40:10 ] Generating [File Tagihan 1307R0020523V002135]: 1307R0020523V002135 successfully
+[ 11:40:10 ] Generating [File Radiologi 1307R0020523V002135]: 1307R0020523V002135 successfully
+[ 11:40:12 ] Generating [File Resum Medis 1307R0020523V002135]: 1307R0020523V002135 successfully
+[ 11:40:21 ] Generating [File Kombinasi 1307R0020523V002135]: 1307R0020523V002135 successfully
+[ 11:40:21 ] Generating [File Resep 1307R0020523V002135]: 1307R0020523V002135 successfully
+[ 11:41:09 ] Generating [File Tagihan 1307R0020523V002136]: 1307R0020523V002136 successfully
+[ 11:41:10 ] Generating [File Resum Medis 1307R0020523V002136]: 1307R0020523V002136 successfully
+[ 11:41:19 ] Generating [File Kombinasi 1307R0020523V002136]: 1307R0020523V002136 successfully
+[ 11:41:19 ] Generating [File Resep 1307R0020523V002136]: 1307R0020523V002136 successfully
+[ 11:42:07 ] Generating [File Tagihan 1307R0020523V002138]: 1307R0020523V002138 successfully
+[ 11:42:08 ] Generating [File Resum Medis 1307R0020523V002138]: 1307R0020523V002138 successfully
+[ 11:42:17 ] Generating [File Kombinasi 1307R0020523V002138]: 1307R0020523V002138 successfully
+[ 11:42:17 ] Generating [File Resep 1307R0020523V002138]: 1307R0020523V002138 successfully
+[ 11:43:05 ] Generating [File Tagihan 1307R0020523V002149]: 1307R0020523V002149 successfully
+[ 11:43:06 ] Generating [File Resum Medis 1307R0020523V002149]: 1307R0020523V002149 successfully
+[ 11:43:15 ] Generating [File Kombinasi 1307R0020523V002149]: 1307R0020523V002149 successfully
+[ 11:43:16 ] Generating [File Resep 1307R0020523V002149]: 1307R0020523V002149 successfully
+[ 11:44:04 ] Generating [File Tagihan 1307R0020523V002158]: 1307R0020523V002158 successfully
+[ 11:44:05 ] Generating [File Resum Medis 1307R0020523V002158]: 1307R0020523V002158 successfully
+[ 11:44:14 ] Generating [File Kombinasi 1307R0020523V002158]: 1307R0020523V002158 successfully
+[ 11:44:15 ] Generating [File Resep 1307R0020523V002158]: 1307R0020523V002158 successfully
+[ 11:46:46 ] System ok
+[ 11:46:47 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 11:46:47 ] =======================================================
+[ 11:46:47 ] 		DONE ESTIMATE IN : 00:00:03
+[ 11:46:47 ] =======================================================
+[ 11:47:35 ] Generating [File Tagihan 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:47:36 ] Generating [File Resum Medis 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:49:57 ] System ok
+[ 11:49:57 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 11:49:57 ] =======================================================
+[ 11:49:57 ] 		DONE ESTIMATE IN : 00:00:03
+[ 11:49:57 ] =======================================================
+[ 11:50:45 ] Generating [File Tagihan 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:50:46 ] Generating [File Resum Medis 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:56:11 ] System ok
+[ 11:56:11 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 11:56:11 ] =======================================================
+[ 11:56:11 ] 		DONE ESTIMATE IN : 00:00:03
+[ 11:56:11 ] =======================================================
+[ 11:56:59 ] Generating [File Tagihan 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:57:00 ] Generating [File Resum Medis 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:57:54 ] System ok
+[ 11:57:54 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 11:57:54 ] =======================================================
+[ 11:57:54 ] 		DONE ESTIMATE IN : 00:00:03
+[ 11:57:54 ] =======================================================
+[ 11:58:42 ] Generating [File Tagihan 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 11:58:43 ] Generating [File Resum Medis 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 12:07:35 ] System ok
+[ 12:07:35 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:07:35 ] =======================================================
+[ 12:07:35 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:07:35 ] =======================================================
+[ 12:08:22 ] Generating [File Tagihan 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 12:08:23 ] Generating [File Resum Medis 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 12:11:44 ] System ok
+[ 12:11:44 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:11:44 ] =======================================================
+[ 12:11:44 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:11:44 ] =======================================================
+[ 12:13:11 ] System ok
+[ 12:13:11 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:13:11 ] =======================================================
+[ 12:13:11 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:13:11 ] =======================================================
+[ 12:30:41 ] System ok
+[ 12:30:41 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:30:41 ] =======================================================
+[ 12:30:41 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:30:41 ] =======================================================
+[ 12:31:28 ] Generating [File Tagihan 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 12:31:29 ] Generating [File Resum Medis 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 12:32:17 ] System ok
+[ 12:32:18 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:32:18 ] =======================================================
+[ 12:32:18 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:32:18 ] =======================================================
+[ 12:33:52 ] System ok
+[ 12:33:52 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:33:52 ] =======================================================
+[ 12:33:52 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:33:52 ] =======================================================
+[ 12:34:03 ] System ok
+[ 12:34:03 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:34:03 ] =======================================================
+[ 12:34:03 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:34:03 ] =======================================================
+[ 12:34:20 ] System ok
+[ 12:34:20 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:34:20 ] =======================================================
+[ 12:34:20 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:34:20 ] =======================================================
+[ 12:34:36 ] System ok
+[ 12:34:36 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:34:36 ] =======================================================
+[ 12:34:36 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:34:36 ] =======================================================
+[ 12:35:24 ] System ok
+[ 12:35:24 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:35:24 ] =======================================================
+[ 12:35:24 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:35:24 ] =======================================================
+[ 12:37:22 ] System ok
+[ 12:37:22 ] Get data successfully total: 21/31 [ 67.741935483871% ]
+[ 12:37:22 ] =======================================================
+[ 12:37:22 ] 		DONE ESTIMATE IN : 00:00:03
+[ 12:37:22 ] =======================================================
+[ 12:37:23 ] Generating [File Resum Medis 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 12:37:23 ] Generating [File Resep 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 12:37:24 ] Generating [File Resum Medis 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 12:37:24 ] Generating [File Resep 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 12:37:31 ] Generating [File Kombinasi 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 12:37:32 ] Generating [File Resum Medis 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 12:37:33 ] Generating [File Kombinasi 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 12:37:33 ] Generating [File Resep 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 12:37:41 ] Generating [File Kombinasi 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 12:38:09 ] Generating [File Tagihan 1307R0020523V002108]: 1307R0020523V002108 successfully
+[ 12:38:10 ] Generating [File Tagihan 1307R0020523V002142]: 1307R0020523V002142 successfully
+[ 12:38:13 ] Generating [File Tagihan 1307R0020523V002101]: 1307R0020523V002101 successfully
+[ 12:38:14 ] Generating [File Resep 1307R0020523V002137]: 1307R0020523V002137 successfully
+[ 12:38:14 ] Generating [File Resum Medis 1307R0020523V002137]: 1307R0020523V002137 successfully
+[ 12:38:15 ] Generating [File Resum Medis 1307R0020523V002117]: 1307R0020523V002117 successfully
+[ 12:38:17 ] Generating [File Kombinasi 1307R0020523V002117]: 1307R0020523V002117 successfully
+[ 12:38:19 ] Generating [File Resum Medis 1307R0020523V002161]: 1307R0020523V002161 successfully
+[ 12:38:23 ] Generating [File Kombinasi 1307R0020523V002137]: 1307R0020523V002137 successfully
+[ 12:38:23 ] Generating [File Resep 1307R0020523V002161]: 1307R0020523V002161 successfully
+[ 12:38:28 ] Generating [File Kombinasi 1307R0020523V002161]: 1307R0020523V002161 successfully
+[ 12:38:33 ] Generating [File Tagihan 1307R0020523V002117]: 1307R0020523V002117 successfully
+[ 12:38:59 ] Generating [File Tagihan 1307R0020523V002137]: 1307R0020523V002137 successfully
+[ 12:39:05 ] Generating [File Tagihan 1307R0020523V002161]: 1307R0020523V002161 successfully
+[ 12:39:06 ] Generating [File Resep 1307R0020523V002148]: 1307R0020523V002148 successfully
+[ 12:39:06 ] Generating [File Resum Medis 1307R0020523V002148]: 1307R0020523V002148 successfully
+[ 12:39:07 ] Generating [File Resum Medis 1307R0020523V002153]: 1307R0020523V002153 successfully
+[ 12:39:07 ] Generating [File Resep 1307R0020523V002153]: 1307R0020523V002153 successfully
+[ 12:39:15 ] Generating [File Kombinasi 1307R0020523V002148]: 1307R0020523V002148 successfully
+[ 12:39:16 ] Generating [File Kombinasi 1307R0020523V002153]: 1307R0020523V002153 successfully
+[ 12:39:17 ] Generating [File Resum Medis 1307R0020523V002124]: 1307R0020523V002124 successfully
+[ 12:39:17 ] Generating [File Resep 1307R0020523V002124]: 1307R0020523V002124 successfully
+[ 12:39:25 ] Generating [File Kombinasi 1307R0020523V002124]: 1307R0020523V002124 successfully
+[ 12:39:54 ] Generating [File Tagihan 1307R0020523V002153]: 1307R0020523V002153 successfully
+[ 12:39:55 ] Generating [File Tagihan 1307R0020523V002124]: 1307R0020523V002124 successfully
+[ 12:39:55 ] Generating [File Tagihan 1307R0020523V002148]: 1307R0020523V002148 successfully
+[ 12:39:56 ] Generating [File Resep 1307R0020523V002152]: 1307R0020523V002152 successfully
+[ 12:39:56 ] Generating [File Resum Medis 1307R0020523V002152]: 1307R0020523V002152 successfully
+[ 12:39:57 ] Generating [File Resum Medis 1307R0020523V002122]: 1307R0020523V002122 successfully
+[ 12:39:57 ] Generating [File Resep 1307R0020523V002122]: 1307R0020523V002122 successfully
+[ 12:40:05 ] Generating [File Kombinasi 1307R0020523V002152]: 1307R0020523V002152 successfully
+[ 12:40:06 ] Generating [File Kombinasi 1307R0020523V002122]: 1307R0020523V002122 successfully
+[ 12:40:07 ] Generating [File Resum Medis 1307R0020523V002123]: 1307R0020523V002123 successfully
+[ 12:40:07 ] Generating [File Resep 1307R0020523V002123]: 1307R0020523V002123 successfully
+[ 12:40:15 ] Generating [File Kombinasi 1307R0020523V002123]: 1307R0020523V002123 successfully
+[ 12:40:43 ] Generating [File Tagihan 1307R0020523V002152]: 1307R0020523V002152 successfully
+[ 12:40:44 ] Generating [File Tagihan 1307R0020523V002122]: 1307R0020523V002122 successfully
+[ 12:40:47 ] Generating [File Tagihan 1307R0020523V002123]: 1307R0020523V002123 successfully
+[ 12:40:48 ] Generating [File Resep 1307R0020523V002128]: 1307R0020523V002128 successfully
+[ 12:40:49 ] Generating [File Resum Medis 1307R0020523V002125]: 1307R0020523V002125 successfully
+[ 12:40:49 ] Generating [File Resum Medis 1307R0020523V002128]: 1307R0020523V002128 successfully
+[ 12:40:49 ] Generating [File Resep 1307R0020523V002125]: 1307R0020523V002125 successfully
+[ 12:40:57 ] Generating [File Kombinasi 1307R0020523V002128]: 1307R0020523V002128 successfully
+[ 12:40:58 ] Generating [File Resum Medis 1307R0020523V002127]: 1307R0020523V002127 successfully
+[ 12:40:58 ] Generating [File Kombinasi 1307R0020523V002125]: 1307R0020523V002125 successfully
+[ 12:40:58 ] Generating [File Resep 1307R0020523V002127]: 1307R0020523V002127 successfully
+[ 12:41:06 ] Generating [File Kombinasi 1307R0020523V002127]: 1307R0020523V002127 successfully
+[ 12:41:36 ] Generating [File Tagihan 1307R0020523V002127]: 1307R0020523V002127 successfully
+[ 12:41:36 ] Generating [File Tagihan 1307R0020523V002125]: 1307R0020523V002125 successfully
+[ 12:41:38 ] Generating [File Tagihan 1307R0020523V002128]: 1307R0020523V002128 successfully
+[ 12:41:39 ] Generating [File Resep 1307R0020523V002129]: 1307R0020523V002129 successfully
+[ 12:41:39 ] Generating [File Radiologi 1307R0020523V002135]: 1307R0020523V002135 successfully
+[ 12:41:39 ] Generating [File Resum Medis 1307R0020523V002129]: 1307R0020523V002129 successfully
+[ 12:41:41 ] Generating [File Resum Medis 1307R0020523V002135]: 1307R0020523V002135 successfully
+[ 12:41:41 ] Generating [File Resep 1307R0020523V002135]: 1307R0020523V002135 successfully
+[ 12:41:48 ] Generating [File Kombinasi 1307R0020523V002129]: 1307R0020523V002129 successfully
+[ 12:41:48 ] Generating [File Kombinasi 1307R0020523V002135]: 1307R0020523V002135 successfully
+[ 12:41:48 ] Generating [File Resum Medis 1307R0020523V002136]: 1307R0020523V002136 successfully
+[ 12:41:48 ] Generating [File Resep 1307R0020523V002136]: 1307R0020523V002136 successfully
+[ 12:41:57 ] Generating [File Kombinasi 1307R0020523V002136]: 1307R0020523V002136 successfully
+[ 12:42:27 ] Generating [File Tagihan 1307R0020523V002129]: 1307R0020523V002129 successfully
+[ 12:42:28 ] Generating [File Tagihan 1307R0020523V002135]: 1307R0020523V002135 successfully
+[ 12:42:30 ] Generating [File Tagihan 1307R0020523V002136]: 1307R0020523V002136 successfully
+[ 12:42:31 ] Generating [File Resep 1307R0020523V002138]: 1307R0020523V002138 successfully
+[ 12:42:31 ] Generating [File Resum Medis 1307R0020523V002138]: 1307R0020523V002138 successfully
+[ 12:42:32 ] Generating [File Resum Medis 1307R0020523V002149]: 1307R0020523V002149 successfully
+[ 12:42:32 ] Generating [File Resep 1307R0020523V002149]: 1307R0020523V002149 successfully
+[ 12:42:40 ] Generating [File Kombinasi 1307R0020523V002138]: 1307R0020523V002138 successfully
+[ 12:42:40 ] Generating [File Resum Medis 1307R0020523V002158]: 1307R0020523V002158 successfully
+[ 12:42:40 ] Generating [File Kombinasi 1307R0020523V002149]: 1307R0020523V002149 successfully
+[ 12:42:40 ] Generating [File Resep 1307R0020523V002158]: 1307R0020523V002158 successfully
+[ 12:42:50 ] Generating [File Kombinasi 1307R0020523V002158]: 1307R0020523V002158 successfully
+[ 12:43:19 ] Generating [File Tagihan 1307R0020523V002158]: 1307R0020523V002158 successfully
+[ 12:43:19 ] Generating [File Tagihan 1307R0020523V002138]: 1307R0020523V002138 successfully
+[ 12:43:20 ] Generating [File Tagihan 1307R0020523V002149]: 1307R0020523V002149 successfully

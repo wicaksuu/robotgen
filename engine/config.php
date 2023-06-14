@@ -5,7 +5,15 @@
  * Ni main url nya bisa di rubah ke RS lain wkwokwokwo
  * 
  */
-$config['url']           = 'http://10.40.1.8';
+
+// rawat jalan 
+// $config['url']           = 'http://10.40.1.8'; 
+
+// rawat jalan 
+$config['url']           = 'http://10.40.1.13'; 
+
+// rawat inap
+// $config['url']           = 'http://10.40.1.14';
 
 
 /**
@@ -14,7 +22,7 @@ $config['url']           = 'http://10.40.1.8';
  * 
  * 
  */
-$config['length'] = 10;
+$config['length'] = 500;
 
 
 
@@ -42,7 +50,7 @@ $config['password']      = '12caruban';
  * mulai tanggal berapa, untuk end nya otomatis di ambil hari ini
  *  
  */
-$config['star_from']     = '2023-01-01';
+$config['star_from']     = '2023-05-07';
 
 
 

@@ -17,5 +17,5 @@ $mpdf = new \Mpdf\Mpdf([
     'margin_bottom' => 10,
     'margin_header' => 0,
     'margin_footer' => 0,
-    'sslverify' => false,
+    'sslverify' => true,
 ]);
